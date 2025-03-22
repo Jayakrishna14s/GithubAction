@@ -20,3 +20,5 @@ jobs:
         run: python -c "import sys; print(sys.version)"
       - name: Running the python application
         run: python hello.py
+      - name: Running second application
+        run: python jk.py
